@@ -1,0 +1,211 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial;
+    background:black;
+    color:white;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 60px;
+
+    position:absolute;
+    width:100%;
+    z-index:10;
+}
+
+.logo{
+    color:#e50914;
+    font-size:42px;
+    font-weight:bold;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+.register-btn{
+    background:#e50914;
+    padding:10px 18px;
+    border-radius:5px;
+}
+
+.hero{
+
+    height:100vh;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.75),
+        rgba(0,0,0,0.75)
+    ),
+
+    url('assets/images/background.jpg');
+
+    background-size:cover;
+
+    background-position:center;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:20px;
+}
+
+.hero-content{
+    max-width:800px;
+}
+
+.hero h2{
+    font-size:70px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:28px;
+    margin-bottom:30px;
+}
+
+.btn{
+    background:#e50914;
+    color:white;
+
+    padding:16px 35px;
+
+    text-decoration:none;
+
+    border-radius:5px;
+
+    font-size:20px;
+
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:red;
+}
+
+.movies{
+    padding:60px;
+}
+
+.movies h2{
+    margin-bottom:30px;
+    font-size:35px;
+}
+
+.movie-row{
+    display:flex;
+    gap:20px;
+
+    overflow-x:auto;
+    overflow:hidden;
+}
+
+.movie-card img{
+    width:220px;
+    height:320px;
+
+    object-fit:cover;
+
+    border-radius:10px;
+
+    transition:0.4s;
+
+    cursor:pointer;
+}
+
+.movie-card img:hover{
+    transform:scale(1.08);
+}
+
+.form-container{
+
+    width:380px;
+
+    margin:100px auto;
+
+    background:#111;
+
+    padding:40px;
+
+    border-radius:10px;
+}
+
+.form-container h2{
+    margin-bottom:25px;
+}
+
+input{
+    width:100%;
+
+    padding:15px;
+
+    margin:12px 0;
+
+    border:none;
+
+    border-radius:5px;
+}
+
+button{
+    width:100%;
+
+    padding:15px;
+
+    margin-top:15px;
+
+    background:#e50914;
+
+    color:white;
+
+    border:none;
+
+    border-radius:5px;
+
+    font-size:18px;
+
+    cursor:pointer;
+}
+
+button:hover{
+    background:red;
+}
+
+footer{
+    padding:40px;
+    text-align:center;
+    color:gray;
+}
+
+body{
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.75),
+        rgba(0,0,0,0.75)
+    ),
+
+    url('assets/images/background.jpg');
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-attachment:fixed;
+}
